@@ -1,0 +1,227 @@
+style.css
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #023020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-block-size: 100vh;
+}
+.profileText .imgBx
+{
+  position: relative;
+  inline-size: 200px;
+  block-size: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+}
+.container
+{
+    position: relative;
+    inline-size: 100%;
+    max-inline-size: 1000px;
+    min-block-size: 1000px;
+    background: #ECFFDC;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px rgba(0,0,0,0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: #8A9A5B;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-end: 20px;
+    border-block-end: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-block-start: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInformation
+{
+    padding-block-start: 40px;
+}
+.title
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-block-end: 20px;
+}
+.contactInformation ul
+{
+    position: relative; 
+}
+.contactInformation ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInformation ul li .icon
+{
+    display: inline-block;
+    inline-size: 30px;
+    font-size: 18px;
+    color: #355E3B;
+}
+.contactInformation ul li span
+{
+    position: relative;
+    color: #fff;
+    font-weight: 300;
+}
+.contactInformation.education li
+{
+   margin-block-end: 15px;
+}
+.contactInformation.education h5
+{
+    color: #355E3B;
+    font-weight: 500;
+}
+.contactInformation.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;  
+}
+.contactInformation.education h4
+{
+    color: #fff;
+    font-weight: 500; 
+}
+.contactInformation.language .percent
+{
+     position: relative;
+     inline-size: 100%;
+     block-size: 6px;
+     background: #091921;
+     display: block;
+     margin-block-start: 5px;
+}
+.contactInformation.language .percent div
+{
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    block-size: 100%;
+    background: #00FF7F;
+}
+.container .right_Side
+{
+    position: relative;
+    background: #fff; 
+    padding: 40px;
+}
+.about
+{
+    margin-block-end: 50px;
+}
+.about :last-child
+{
+    margin-block-end: 0;
+}
+.title2
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-block-end: 10px;
+}
+p
+{
+  color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company
+{
+    min-inline-size: 150px;
+}
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #355E3B;
+    font-size: 16px;
+}
+.skills .box
+{
+    position: relative;
+    inline-size: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 500;
+}
+.skills .box  .percent
+{
+    position: relative;
+    inline-size: 100%;
+    block-size: 10px;
+    background: #333;
+}
+.skills .box .percent div
+{
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 00;
+    block-size: 100%;
+    background: #00FF7F;
+}
+
+
+
